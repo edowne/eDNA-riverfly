@@ -8,4 +8,6 @@ FILES:
 - "ANALYSIS_PART_1_LOD_LOQ.R": R script for calculating the Limit of Detection and Limit of Quantification, generating the standard/calibration curve and fitting a linear model to it to use for the unknown samples to estimate target DNA concentration based on their Cq.
 - "ANALYSIS_PART_2_qPCR_vs_kick.R": R script for exploring the relationships between the qPCR data and the kick-sampling data, and comparing the three sampling methods.
 - "ANALYSIS_PART_3_Env_vars_Model.R": R script for exploring the environmental variables and fitting a model to predict abundance (kick-sample counts) from qPCR/eDNA data.
+- Also available are the three raw outputs from the qPCR machine, as three files labelled PLATE 1, PLATE 2, and PLATE 3. These are .eds files and you will need to have the software "Design & Analysis Software 2.6.0" from Applied Biosystems (Thermo Fisher Scientific) to read these properly.
+
 
